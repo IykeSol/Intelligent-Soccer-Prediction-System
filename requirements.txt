@@ -1,6 +1,0 @@
-streamlit
-requests
-pandas
-google-generativeai
-scikit-learn
-toml
