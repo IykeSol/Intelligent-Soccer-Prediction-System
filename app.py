@@ -348,3 +348,5 @@ if st.button("🚀 Generate Prediction", type="primary", use_container_width=Tru
                     st.markdown(stat_html("Home Goals/Game", f"{feats['home_form_goals_for_5']:.2f}"), unsafe_allow_html=True)
                     st.markdown(stat_html("Away Goals/Game", f"{feats['away_form_goals_for_5']:.2f}"), unsafe_allow_html=True)
                     st.markdown(stat_html("Defensive Ratio", f"{(feats['home_form_goals_against_5'] - feats['away_form_goals_against_5']):.2f}"), unsafe_allow_html=True)
+
+                
